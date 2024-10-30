@@ -1,0 +1,105 @@
+.header {
+  color: white;
+  background-color: #e74c3c;
+}
+
+.banner {
+  background: url(./image/bg.png) no-repeat;
+  background-size: cover;
+}
+.title {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 7px;
+  display: inline-block;
+  margin: 0;
+}
+.lead {
+  background-color: #e74c3c;
+  padding: px;
+  color: white;
+}
+
+.head {
+  font-family: Athelas;
+}
+p {
+  font-family: Athelas;
+}
+.image {
+  width: 150px;
+  height: 40px;
+}
+.bor {
+  width: 100%;
+}
+.ff {
+  font-family: Athelas;
+  font-weight: 500;
+}
+.cyan {
+  background-color: #edfaff;
+}
+.butt {
+  background-color: rgba(245, 143, 45, 1);
+}
+
+@media (max-width: 576px) {
+  .fs {
+    font-size: 15px !important;
+    margin-top: -10px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .bg-image {
+    height: 50vh !important;
+  }
+  .logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: -70px !important;
+  }
+  .overlay {
+    position: absolute;
+    top: 5% !important;
+    left: 3% !important;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 40px;
+    width: calc(100% - 44px) !important;
+    height: 72% !important;
+    padding: 4% !important;
+  }
+  .btnn {
+    top: 39px !important;
+    left: 40px !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1400px) {
+  .fs {
+    font-size: 40px !important;
+    padding-top: 10% !important;
+    padding-left: 60px !important;
+    text-align: start !important;
+
+  }
+  .bg-image {
+    height: 80vh;
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 40px;
+    width: calc(100% - 44px) !important;
+  }
+
+  
+  
+}

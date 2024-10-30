@@ -1,0 +1,78 @@
+.bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.628);
+  z-index: 0;
+}
+.bg-image {
+  position: relative;
+  background-image: url("./image/bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.butt {
+  background-color: rgba(245, 143, 45, 1) !important;
+}
+.img1 {
+  width: 16%;
+  height: 80px;
+}
+p {
+  font-family: Athelas !important;
+}
+.fw {
+  font-size: 18 px;
+  font-weight: bold;
+}
+.form-control {
+  font-family: Athelas !important;
+  font-weight: bold !important;
+}
+.inp {
+  font-size: 16px !important;
+  color: black !important;
+}
+
+@media (min-width:580px) and(max-width:767px) {
+
+}
+
+
+
+@media (max-width: 576px) {
+  .fs {
+    font-size: 20px !important;
+    margin-top: -51px !important;
+    padding-bottom: 20px !important;
+  }
+  .bg-image {
+    height: 50vh !important;
+  }
+  .logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: -70px !important;
+  }
+  .img1 {
+    width: 25%;
+    height: 60px;
+  }
+}
+@media (min-width: 577px) and (max-width: 1200px) {
+  .fs {
+    font-size: 51px !important;
+    padding: 15px !important;
+    text-align: start !important;
+    margin-top: 8% !important;
+  }
+  .bg-image {
+    height: 60vh;
+  }
+}
