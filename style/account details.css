@@ -1,0 +1,49 @@
+.form-control {
+  font-family: Athelas !important;
+  font-weight: bold !important;
+}
+label {
+  font-weight: 500 !important;
+  font-family: Athelas !important;
+  font-size: 17px !important;
+}
+.inp {
+  opacity: 0.4;
+  font-size: 16px !important;
+}
+@media (max-width: 576px) {
+  .fs {
+    font-size: 15px !important;
+    margin-top: -10px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .bg-image {
+    height: 50vh !important;
+  }
+  .logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: -70px !important;
+  }
+
+  .btnn {
+    width: 100% !important;
+    font-size: 10px !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1200px) {
+  .fs {
+    font-size: 40px !important;
+    padding: 15px !important;
+    text-align: start !important;
+    margin-top: 10% !important;
+  }
+  .bg-image {
+    height: 60vh;
+  }
+}

@@ -1,20 +1,4 @@
-.bg-image::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.628);
-  z-index: 0;
-}
-.bg-image {
-  position: relative;
-  background-image: url("../images/image/bg.png");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-}
+
 td {
   font-weight: 600;
   font-family: Athelas !important;
