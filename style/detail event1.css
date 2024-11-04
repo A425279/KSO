@@ -50,6 +50,7 @@ ul > li {
 .btn-group .btn:last-child {
   margin-right: 0;
 }
+
 .btn-group label {
   font-size: 14px !important;
 }
@@ -70,6 +71,7 @@ ul > li {
   background-color: #fff !important;
   font-weight: bold !important;
 }
+
 .fw {
   font-weight: 700 !important;
   font-size: 23px !important;
@@ -78,20 +80,50 @@ ul > li {
   font-family: Georgia, "Times New Roman", Times, serif !important;
   font-weight: 700 !important;
 }
+.btn1 {
+  width: 20vw; /* Base width for larger screens */
+}
+.btn{
+  max-width: 95px !important;
+}
+
+
 /* media quries----------- */
 
 @media (max-width: 576px) {
-  .firstp{
+  .firstp {
     text-align: center !important;
-    
   }
-  .image{
-    height: 20vh!important;
+  .fw {
+    font-size: 15px !important;
   }
-  .icon{
+  .btn1 {
+    width: 90% !important;
+    font-size: 1rem;
+  }
+  .btn{
+    max-width: 300px !important;
+  }
+
+  .image {
+    height: 20vh !important;
+  }
+  .icon {
     margin-left: -23px !important;
   }
+  .heading {
+    font-weight: bold !important;
+  }
+  .img-fluid {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
 }
-@media (min-width:577px) and (max-width:1200px){
-   
+
+@media (min-width: 577px) and (max-width: 1200px) {
+  .img-fluid {
+    width: 100px !important;
+    height: 100px !important;
+  }
 }
