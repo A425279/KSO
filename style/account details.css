@@ -13,8 +13,8 @@ label {
 }
 @media (max-width: 576px) {
   .fs {
-    font-size: 15px !important;
-    margin-top: -10px !important;
+    font-size: 25px !important;
+    margin-top: -44px !important;
     padding-bottom: 20px !important;
   }
 
@@ -45,5 +45,11 @@ label {
   }
   .bg-image {
     height: 60vh;
+  }
+  .btnn{
+    margin-top: 10px!important;
+  }
+  .btnn2{
+    margin-bottom: 20px !important;
   }
 }

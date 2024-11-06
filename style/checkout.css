@@ -18,8 +18,19 @@
     width: 25%;
     height: 60px;
   }
- 
+  .btnn {
+    min-width: 64vw !important;
+  }
 }
+
+@media (max-width: 768px) {
+  .btnn {
+    min-width: 45vw !important;
+  }
+}
+
+
+
 @media (min-width: 577px) and (max-width: 1200px) {
   .fs {
     font-size: 51px !important;
@@ -29,8 +40,5 @@
   }
   .bg-image {
     height: 60vh;
-  }
-  .btnn{
-    width: 10vw !important;
   }
 }

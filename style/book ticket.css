@@ -40,13 +40,13 @@ p {
   background-color: #edfaff;
 }
 .butt {
-  background-color: rgba(245, 143, 45, 1);
+  background-color: #c07629 !important;
 }
 
 @media (max-width: 576px) {
   .fs {
-    font-size: 15px !important;
-    margin-top: -10px !important;
+    font-size: 25px !important;
+    margin-top: -96px !important;
     padding-bottom: 20px !important;
   }
 
@@ -83,23 +83,20 @@ p {
     padding-top: 10% !important;
     padding-left: 60px !important;
     text-align: start !important;
-
   }
   .bg-image {
     height: 80vh;
   }
-  .overlay{
+  .overlay {
     position: absolute;
     top: 0;
-    left:0;
+    left: 3%;
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
     border-radius: 40px;
-    width: calc(100% - 44px) !important;
+    width: calc(100% - 48px);
+    margin-left: 13px;
   }
-
-  
-  
 }

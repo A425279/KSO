@@ -1,24 +1,69 @@
 label {
+  font-family: Athelas !important;
+  font-size: 19px !important;
+}
+
+.firstcol {
+  padding-top: 16% !important;
+}
+.z-index {
+  z-index: 9999 !important;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+.para {
+  font-size: 20px !important;
+}
+button {
+  min-width: 41vw !important;
+}
+
+/* media queries--------------- */
+
+@media (max-width: 576px) {
+  .img-fluid {
+    display: none !important;
+  }
+  label {
+    font-family: Athelas !important;
+    font-size: 15px !important;
+  }
+  
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: clamp(1.8rem, 5vw, 3.5rem);
+  }
+  .para {
+    font-size: 17px !important;
+  }
+  button {
+    min-width: 40vw !important;
+    border: none !important;
+    outline: none !important;
+  }
+  label {
+    font-family: Athelas !important;
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+  }
+  .para {
+    font-size: 14px !important;
+  }
+  button {
+    min-width: 70vw !important;
+    border: none !important;
+    outline: none !important;
+  }
+  label {
     font-family: Athelas !important;
   }
-  
-  .firstcol {
-    padding-top: 19% !important;
-  }
-  .z-index {
-    z-index: 9999 !important;
-  }
-  
-  
-  @media (max-width: 576px) {
-    button {
-      padding: 0px !important;
-      font-weight: lighter !important;
-    }
-    .button2 {
-      padding: 0px !important;
-      font-size: 13px !important;
-    }
-  }
-  
-  
+}

@@ -1,7 +1,9 @@
 label {
   font-family: Athelas !important;
 }
-
+.rem {
+  font-size: 20px !important;
+}
 .firstcol {
   padding-top: 19% !important;
 }
@@ -9,15 +11,50 @@ label {
   z-index: 9999 !important;
 }
 
+button {
+  min-width: 42vw !important;
+}
+.button2{
+  padding-top: 19px!important;
+  padding-bottom: 19px!important;
+}
 
 @media (max-width: 576px) {
-  button {
-    padding: 0px !important;
-    font-weight: lighter !important;
+  .img-fluid {
+    display: none !important;
+  }
+}
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: clamp(1.8rem, 5vw, 3.5rem);
+  }
+  .rem {
+    font-size: 17px !important;
   }
   .button2 {
-    padding: 0px !important;
-    font-size: 13px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
   }
 }
 
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+  }
+  .button2 {
+    max-width: 90px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .rem {
+    font-size: 14px !important;
+  }
+  button {
+    min-width: 58vw !important;
+  }
+}
