@@ -81,12 +81,11 @@ ul > li {
   font-weight: 700 !important;
 }
 .btn1 {
-  width: 20vw; /* Base width for larger screens */
+  width: 20vw;
 }
-.btn{
-  max-width: 95px !important;
+.btn {
+  max-width: 110px !important;
 }
-
 
 /* media quries----------- */
 
@@ -97,11 +96,8 @@ ul > li {
   .fw {
     font-size: 15px !important;
   }
-  .btn1 {
-    width: 90% !important;
-    font-size: 1rem;
-  }
-  .btn{
+
+  .btn {
     max-width: 300px !important;
   }
 
@@ -118,12 +114,99 @@ ul > li {
     width: 100px !important;
     height: 100px !important;
   }
-
 }
 
 @media (min-width: 577px) and (max-width: 1200px) {
   .img-fluid {
     width: 100px !important;
     height: 100px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .pkg-containers {
+    max-width: 300px !important;
+  }
+  .pkg-outer {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .btn1 {
+    min-width: 160px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  label {
+    min-width: 60% !important;
+  }
+
+  .heading {
+    font-weight: bold !important;
+  }
+  .par {
+    margin-top: 10px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .icon {
+    margin-left: 30px !important;
+    font-size: 10px !important;
+  }
+  .btn-group label {
+    min-width: 50% !important;
+    text-align: center !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .btn-group {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .btn-group .btn {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 10px !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .responsive-image {
+    max-width: 70%;
+  }
+  .btn1 {
+    min-width: 40% !important;
+  }
+  .exper {
+    justify-content: center !important;
+  }
+  .sar {
+    justify-content: center !important;
+  }
+  .butdivs {
+    margin: auto !important;
+    width: 70% !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .responsive-image {
+    max-width: 75%;
+  }
+}
+
+@media (min-width: 993px) {
+  .responsive-image {
+    max-width: 70%;
   }
 }

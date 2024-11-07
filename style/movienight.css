@@ -84,7 +84,7 @@ ul > li {
   width: 20vw;
 }
 .btn {
-  max-width: 95px !important; 
+  max-width: 110px !important;
 }
 
 /* media quries----------- */
@@ -96,9 +96,7 @@ ul > li {
   .fw {
     font-size: 15px !important;
   }
-  .btn1 {
-    width: 90% !important;
-  }
+
   .btn {
     max-width: 300px !important;
   }
@@ -115,10 +113,6 @@ ul > li {
   .img-fluid {
     width: 100px !important;
     height: 100px !important;
-  }
-
-  label {
-    min-width: 80% !important;
   }
 }
 
@@ -138,6 +132,22 @@ ul > li {
     flex-direction: column !important;
     align-items: center !important;
   }
+  .btn1 {
+    min-width: 160px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  label {
+    min-width: 60% !important;
+  }
+
+  .heading {
+    font-weight: bold !important;
+  }
+  .par {
+    margin-top: 10px !important;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
@@ -146,7 +156,26 @@ ul > li {
     height: auto;
   }
   .icon {
-    margin-left: 30px !important;
+    margin-left:30px !important;
+  }
+  .btn-group label {
+    /* min-width: 60% !important; */
+    text-align: center !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .btn-group {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .btn-group .btn {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 10px !important;
   }
 }
 
@@ -155,7 +184,17 @@ ul > li {
     max-width: 70%;
   }
   .btn1 {
-    min-width: 80% !important;
+    min-width: 40% !important;
+  }
+  .exper {
+    justify-content: center !important;
+  }
+  .sar {
+    justify-content: center !important;
+  }
+  .butdivs {
+    margin: auto !important;
+    width: 70% !important;
   }
 }
 
@@ -168,17 +207,5 @@ ul > li {
 @media (min-width: 993px) {
   .responsive-image {
     max-width: 70%;
-  }
-}
-
-@media (min-width: 520px) and (max-width: 768px) {
-  label {
-    min-width: 65% !important;
-  }
-  .btn1 {
-    min-width: 70% !important;
-  }
-  .heading {
-    font-weight: bold !important;
   }
 }

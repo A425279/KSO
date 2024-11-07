@@ -8,15 +8,15 @@ label {
   padding-top: 19% !important;
 }
 .z-index {
-  z-index: 9999 !important;
+  z-index:1030 !important;
 }
 
 button {
   min-width: 42vw !important;
 }
-.button2{
-  padding-top: 19px!important;
-  padding-bottom: 19px!important;
+.button2 {
+  padding-top: 19px !important;
+  padding-bottom: 19px !important;
 }
 
 @media (max-width: 576px) {
@@ -35,12 +35,8 @@ h1 {
   .rem {
     font-size: 17px !important;
   }
-  .button2 {
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
-  }
+  
 }
-
 
 @media (max-width: 576px) {
   h1 {
@@ -48,8 +44,9 @@ h1 {
   }
   .button2 {
     max-width: 90px !important;
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
+   
+    text-transform: lowercase !important;
+    font-weight: bold !important;
   }
   .rem {
     font-size: 14px !important;
